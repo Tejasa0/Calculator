@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="Calculator.css">
+	<title>Calculator</title>
+	<style type="text/css">
+		h1{
+			background-color: purple;
+			color:white;
+			text-align: center;
+		}
+	</style>
+	
+	<script type="text/javascript" src="Calculator.js">
+
+		
+		// var result=0;
+		// var a;
+
+		// function calc(c) {
+		// 	// if (a == "0" || a == "1" || a == "2" || a == "3" || a == "4" || a == "5" || a == "6" || a == "7" || a == "8" || a == "9") {
+		// 		a = c;
+		// 		document.getElementById("res").value = a;
+			
+			
+
+			
+		// }
+		// function calc1(b){
+		// 	if (b == '+') {
+		// 	result = result + a;
+		// 		document.getElementById("res").value = b;
+		// 		// alert(result)
+
+
+		// 	}
+		// 	else if (b == '-') {
+		// 		result = result - a;
+		// 		document.getElementById("res").value = b;
+
+		// 	}
+		// 	else if (b == '*') {
+		// 		result = result * a;
+		// 		document.getElementById("res").value = b;
+
+		// 	}
+		// 	else if (b == '/') {
+		// 		result = result / a;
+		// 		document.getElementById("res").value = b;
+				
+		// 	}
+		// 	else if(b=='='){
+		// 		document.getElementById("res").value = result;
+		// 		result=0;
+		// 		return ;
+				
+		// 	}
+			
+		// }
+	</script>
+</head>
+
+<body>
+	<h1>Calculator</h1>
+	<center>
+		<table>
+			<tr>
+				<td colspan="3"><input type="text" value="" id="inval"></td>
+				<td><button style="background-color: red" onclick="clearme()">C</button></td>
+			</tr>
+			<tr>
+				<td><button onclick="calc('1')">1</button></td>
+				<td><button onclick="calc('2')">2</button></td>
+				<td><button onclick="calc('3')">3</button></td>
+				<td><button onclick="calc('+')">+</button></td>
+			</tr>
+			<tr>
+				<td><button onclick="calc('4')">4</button></td>
+				<td><button onclick="calc('5')">5</button></td>
+				<td><button onclick="calc('6')">6</button></td>
+				<td><button onclick="calc('-')">-</button></td>
+			</tr>
+			<tr>
+				<td><button onclick="calc('7')">7</button></td>
+				<td><button onclick="calc('8')">8</button></td>
+				<td><button onclick="calc('9')">9</button></td>
+				<td><button onclick="calc('*')">*</button></td>
+			</tr>
+			<tr>
+				<td><button onclick="calc('0')">0</button></td>
+				<td><button onclick="calc('%')">%</button></td>
+				<td><button onclick="calc('/')">/</button></td>
+				<td><button onclick="calc1()">=</button></td>
+			</tr>
+			<tr>
+
+			</tr>
+		</table>
+	</center>
+</body>
+
+</html>
